@@ -1,0 +1,35 @@
+------------------------------
+Digital Signature
+---------------------
+What's a digital signature?
+:easy to verify and hard to mimic
+Digital signature is rely on Asymmetric encryption
+RSA(type of asymmetric encryption)
+
+A digital signature algorithm uses a public key system.
+The Transmitter signs his/her message with his/her private key
+The receiver will verify it with transmitters public key
+
+
+What is Rsa Algorithm: is a asymmetric cryptographic algorithm
+RSA is invented in 1978
+It uses public and private key(Two different mathematically linked keys)
+Public key - shared publicly
+Private key - It's a secret key and must not share
+
+How RSA Works?
+
+The sender will encrypt the data into a cypher text
+using the available public key and send the data to the
+receiver. The receiver then decrypt the data with the
+private key.
+
+usage of "b" before the message
+
+type(b"Message")
+<class 'byte'>
+
+If the message is in type str(String) then there will be a TypeError showing that the data must be bytes
+Encryption algorithms need bytes to perform the operation
+
+
